@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "run with docker please"
+    "dev": "NODE_OPTIONS='-r @newrelic/native-metrics' node server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
